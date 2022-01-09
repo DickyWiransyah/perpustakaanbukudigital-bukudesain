@@ -117,35 +117,47 @@ section {
 #particles-js {
   background-image: url(../img/background.png);
   background-size: cover;
-  height: 725px;
-  margin-top: -150px;
+  height: 709px;
+  margin-top: -140px;
 }
 
 .jumbotron h1 {
   position: absolute;
-  color: #00ebfa;
-  padding-top: 280px;
-  margin-left: 260px;
+  color: white;
+  padding-top: 220px;
+  margin-left: 700px;
   font-size: 90px;
   font-family: 'Righteous', sans-serif;
   text-align: center;
 }
 
-.jumbotron h2 {
+.jumbotron p {
   position: absolute;
-  color: #fcfffc;
-  padding-top: 360px;
-  margin-left: 360px;
-  font-size: 90px;
-  font-family: 'Righteous', sans-serif;
+  color: #ca66ff;
+  margin-left: 780px;
+  padding-top: 430px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron span {
+  position: absolute;
+  color: #aaa2cc;
+  margin-left: 670px;
+  margin-bottom: 20px;
+  padding-top: 470px;
+  padding-right: 7rem;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
+  display: grid;
 }
 
 .tombol1 {
   position: absolute;
-  margin-left: 450px;
-  margin-top: 480px;
-  background-image: linear-gradient(50deg, #001d4f, #003241);
+  margin-left: 830px;
+  margin-top: 545px;
+  background-image: linear-gradient(50deg, #fe0173, #d842ff);
   border-radius: 40px;
   color: white;
   padding: 0.3rem 2rem;
